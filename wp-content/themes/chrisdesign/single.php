@@ -10,4 +10,5 @@
             </article>
         <?php endwhile; ?>
     </section>
+    <?php comments_template(); ?>
 <?php get_footer(); ?>
