@@ -15,7 +15,8 @@
             </article>
     <?php endwhile; ?>
         <ul id="pagination">
-            <li><?php ?></li>
+            <li><?php previous_post_link('Page précédente'); ?></li>
+            <li><?php next_post_link('Page suivante'); ?></li>
         </ul>
     </section>
 <?php get_footer(); ?>
