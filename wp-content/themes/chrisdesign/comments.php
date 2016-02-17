@@ -7,6 +7,7 @@
                 <p>Le <?php comment_date('j M Y') ?> a <?php comment_time(); ?></p>
                 <p><?php comment_text(); ?></p>
             </li>
-        <?php endforeach ?>
+        <?php endforeach; ?>
     </ol>
 <?php endif; ?>
+<?php include(TEMPLATEPATH . '/form_comment.php'); ?>
