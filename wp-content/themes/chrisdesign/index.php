@@ -10,7 +10,7 @@
                 <a href="<?php the_permalink(); ?>" class="more" >Lire la suite</a>
                 <p><?php comments_popup_link('Aucun commentaire', '1 commentaire', '% commentaires') ?></p>
                 <?php if (has_post_thumbnail()) { ?>
-        <p><?php the_post_thumbnail('thumbanail'); ?></p>
+                <p><?php the_post_thumbnail('thumbanail'); ?></p>
                <?php } ?>
             </article>
     <?php endwhile; ?>
