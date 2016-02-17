@@ -14,5 +14,8 @@
                <?php } ?>
             </article>
     <?php endwhile; ?>
+        <ul id="pagination">
+            <li><?php ?></li>
+        </ul>
     </section>
 <?php get_footer(); ?>

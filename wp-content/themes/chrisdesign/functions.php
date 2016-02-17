@@ -19,4 +19,4 @@ function register_my_menus() {
 add_action('init', 'register_my_menus');
 
 // Gestion des images
-add_theme_support('post_thumbnails');
+add_theme_support('post-thumbnails');
