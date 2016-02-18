@@ -10,7 +10,13 @@
 <body>
 <header>
     <h1><a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h1>
-    <?php wp_nav_menu(array('theme_location' => 'header_menu',
+    <?php if (is_user_logged_in()) { ?>
+    <a href="<?php echo wp_logout_url(esc_url(home_url('/'))); ?>">Déconnexion</a>
+    <?php } else { ?>
+        <a href="<?php echo wp_login_url(esc_url(home_url('/'))); ?>">Connexion</a>
+    <?php } ?>
+    <?php wp_nav_menu(array(
+        'theme_location' => 'header_menu',
         'container'    => 'nav',
         )); ?>
 </header>
