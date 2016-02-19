@@ -1,0 +1,142 @@
+/* Typographie */
+
+body {
+    font: 96% Arial, Helvetica, Geneva, sans-serif;
+}
+
+/* Liens en noir, inversés au survol */
+
+a {
+    color: #000;
+}
+
+a:hover {
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* titre principal du site */
+h1 {
+    background-color: #000;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h1 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Espacement différents blocs */
+section {
+    padding: 10px;
+}
+
+
+footer {
+    text-align: center;
+}
+
+/* Menus extensibles */
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    text-decoration: none;
+    border-bottom: 1px solid #333;
+}
+
+nav a:hover, .current_page_item a {
+    background-color: #EEE;
+}
+
+/* Les articles */
+
+section>article {
+    display: block;
+    height: 300px;
+}
+article {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-bottom: 1px dotted #333;
+}
+/* Titre article en gras */
+ article h2 {
+     font-weight: bold;
+ }
+ /* Miniature de post : Dans le texte */
+ article .attachment-thumbnail {
+     float: left;
+     margin-right: 10px;
+ }
+ /* "Boutons" Lire la suite et les liens de pagination */
+.more, #pagination a {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 50%;
+    height: 25px;
+    line-height: 25px;
+    margin: 10px 5px 0 50%;/*50% à gauche pour le repousser à droite */
+}
+/* Pagination */
+#pagination {
+    height: 25px;
+}
+#pagination li {
+    display: inline-block;
+    width: 50%;
+}
+#pagination li a {
+    margin: 0;
+    width: 100%;
+}
+
+/*Formulaire de commentaire et ses champs*/
+form label {
+    display: none;
+}
+
+form input, form textarea {
+    width: 100%;
+    height: 2em;
+    margin: 10px auto;
+    padding: 0;
+}
+
+form textarea {
+    height: 4em;
+}
+
+/* Bouton submit */
+input[type="submit"] {
+    background-color: #000;
+    color: #fff;
+    height: 25px;
+    border: none;
+}
+
+/* Pied de page */
+footer nav {
+    margin-bottom: 10px;
+}
+footer nav li {
+    display: inline;
+}
+footer nav a {
+    display: inline;
+    background-color: #000;
+    color: #fff;
+}

@@ -5,4 +5,5 @@ Description: Thème Wordpress du cours W01, adapté au mobile
 Author: CT
 Version: 1.0
 */
+@import url('css/reset.css');
 @import url('css/theme.css');
