@@ -63,7 +63,8 @@ nav a:hover, .current_page_item a {
 
 section>article {
     display: block;
-    height: 300px;
+    width: 100%;
+   min-height: 350px;
 }
 article {
     margin-bottom: 20px;
@@ -85,11 +86,11 @@ article {
     color: #fff;
     text-align: center;
     text-decoration: none;
-    display: block;
-    width: 50%;
+    display: inline;
+    width: 30%;
     height: 25px;
     line-height: 25px;
-    margin: 10px 5px 0 50%;/*50% à gauche pour le repousser à droite */
+    margin: 10px 5px 0 65%;/*50% à gauche pour le repousser à droite */
 }
 /* Pagination */
 #pagination {
